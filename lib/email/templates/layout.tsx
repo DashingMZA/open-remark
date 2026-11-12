@@ -9,7 +9,7 @@ import {
   Section,
   Text,
   Hr,
-} from "@react-email/components"
+} from "react-email"
 
 type Props = {
   preview: string
