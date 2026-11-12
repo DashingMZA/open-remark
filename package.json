@@ -4,6 +4,9 @@
   "type": "module",
   "private": true,
   "packageManager": "pnpm@12.19.0",
+  "engines": {
+    "node": ">=24"
+  },
   "scripts": {
     "dev": "prisma generate && pnpm widget:build && next dev --turbopack",
     "build": "prisma generate && pnpm widget:build && next build",
