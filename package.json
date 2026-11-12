@@ -3,7 +3,7 @@
   "version": "0.6.1",
   "type": "module",
   "private": true,
-  "packageManager": "pnpm@11.7.0",
+  "packageManager": "pnpm@12.19.0",
   "scripts": {
     "dev": "prisma generate && pnpm widget:build && next dev --turbopack",
     "build": "prisma generate && pnpm widget:build && next build",
