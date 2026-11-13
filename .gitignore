@@ -13,6 +13,7 @@
 
 # next.js
 /.next/
+/.open-next/
 /out/
 
 # production
@@ -48,6 +49,7 @@ prisma/dev.db-journal
 
 # env
 .env
+.dev.vars
 
 # Agents
 .claude/worktrees
