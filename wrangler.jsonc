@@ -34,7 +34,7 @@
     }
   ],
   "observability": {
-    "enabled": true
+    "enabled": false
   },
   "vars": {
     "AUTH_TRUST_HOST": "true",
