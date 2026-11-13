@@ -19,7 +19,7 @@
     "AUTH_TRUST_HOST": "true",
     // Production URL of this project (vercel.json redirect target, README
     // demo, config.json). NOT jadoo.bond — that is the Astroplate site.
-    "NEXT_PUBLIC_APP_URL": "https://openremark.bond"
+    "NEXT_PUBLIC_APP_URL": "https://jadoo.bond"
   }
   // Secrets are NOT stored here. Set them in the Cloudflare dashboard
   // (or `wrangler secret put`): DATABASE_URL, AUTH_SECRET,
