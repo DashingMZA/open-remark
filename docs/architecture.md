@@ -51,7 +51,7 @@
    → Popup opens accounts.google.com OAuth
    → Popup redirects to /api/widget/oauth-callback
    → Callback page reads id_token from URL fragment
-   → postMessage({type: "CSOFTS_GOOGLE_TOKEN", idToken}) to opener
+   → postMessage({type: "ZEON_GOOGLE_TOKEN", idToken}) to opener
    → embed.js calls POST /api/widget/auth with {idToken}
    → Server verifies token with Google tokeninfo API
    → Server issues a signed Widget JWT (7-day expiry)
@@ -99,7 +99,7 @@ The embed widget is a self-contained vanilla TypeScript bundle:
 - **Shadow DOM** — styles isolated, no leakage in or out
 - **No framework** — plain DOM APIs, ~22 KB unminified
 - **State machine** — simple class managing auth state, comments, reply target
-- **CSS custom properties** — themeable via `--csofts-*` variables on `:host`
+- **CSS custom properties** — themeable via `--zeon-*` variables on `:host`
 - **Dark mode** — `prefers-color-scheme` media query in shadow CSS
 - **Reduced motion** — transitions disabled when `prefers-reduced-motion: reduce`
 
