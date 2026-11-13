@@ -2,8 +2,8 @@
   "redirects": [
     {
       "source": "/(.*)",
-      "has": [{ "type": "host", "value": "open-remark.vercel.app" }],
-      "destination": "https://open-remark.zeon.studio/$1",
+      "has": [{ "type": "host", "value": "openremark.vercel.app" }],
+      "destination": "https://openremark.bond/$1",
       "permanent": true
     }
   ]
