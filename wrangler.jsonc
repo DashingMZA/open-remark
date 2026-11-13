@@ -12,13 +12,34 @@
     "binding": "ASSETS",
     "directory": ".open-next/assets"
   },
+  // Bindings already configured in the Cloudflare dashboard — they must
+  // also live here, otherwise the next `wrangler deploy` drops them.
+  // NEXT_INC_CACHE_R2_BUCKET is the OpenNext incremental cache
+  // (open-next.config.ts enables the R2 cache); WORKER_SELF_REFERENCE is
+  // the self reference the adapter's queue/revalidation uses; IMAGES
+  // powers Next.js image optimization via Cloudflare Images.
+  "images": {
+    "binding": "IMAGES"
+  },
+  "r2_buckets": [
+    {
+      "binding": "NEXT_INC_CACHE_R2_BUCKET",
+      "bucket_name": "open-remark-opennext-cache"
+    }
+  ],
+  "services": [
+    {
+      "binding": "WORKER_SELF_REFERENCE",
+      "service": "open-remark"
+    }
+  ],
   "observability": {
     "enabled": true
   },
   "vars": {
     "AUTH_TRUST_HOST": "true",
-    // Production URL of this project (vercel.json redirect target, README
-    // demo, config.json). NOT jadoo.bond — that is the Astroplate site.
+    // Production URL for this Cloudflare deployment (owner decision
+    // 2026-11-13 — keep jadoo.bond here).
     "NEXT_PUBLIC_APP_URL": "https://jadoo.bond"
   }
   // Secrets are NOT stored here. Set them in the Cloudflare dashboard
