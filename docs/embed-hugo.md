@@ -35,7 +35,7 @@ Add to `config/_default/params.toml`:
 [open_remark]
 enable = true
 site_key = ""                                          # your site key from the OpenRemark dashboard
-embed_url = "https://open-remark.zeon.studio/embed.js" # OpenRemark embed.js URL
+embed_url = "https://openremark.bond/embed.js" # OpenRemark embed.js URL
 ```
 
 If you self-host OpenRemark, set `embed_url` to `https://your-domain.com/embed.js`.
