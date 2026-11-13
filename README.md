@@ -6,11 +6,9 @@
 
 ![Beta](https://img.shields.io/badge/status-beta-orange) ![Version](https://img.shields.io/badge/version-0.6.1-blue) ![License](https://img.shields.io/badge/license-MIT-green)
 
-<a href="https://www.producthunt.com/products/openremark?embed=true&utm_source=badge-featured&utm_medium=badge&utm_campaign=badge-openremark" target="_blank" rel="noopener noreferrer"><img alt="OpenRemark - An open-source comment system for static websites | Product Hunt" width="250" height="54" src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1165618&theme=light&t=1780902380009"></a>
-
 A self-hostable comment system for static websites — Astro, Hugo, Next.js, and any site that accepts HTML.
 
-[**Live Demo**](https://open-remark.zeon.studio/demo.html)
+[**Live Demo**](https://openremark.bond/demo.html)
 
 **Features:** Google sign-in · threaded replies · spam/moderation dashboard · site teams &amp; roles · shadow DOM widget · origin allowlisting
 
@@ -85,5 +83,3 @@ See [docs/architecture.md](docs/architecture.md) for system design, request flow
 ## License
 
 [MIT License](https://github.com/zeon-studio/open-remark/blob/main/LICENSE)
-
-This project is maintained by [Zeon Studio](https://zeon.studio/?ref=openremark)
