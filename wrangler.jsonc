@@ -1,0 +1,12 @@
+{
+  "name": "open-remark",
+  "compatibility_date": "2026-11-13",
+  "assets": {
+    "directory": "./next",
+    "not_found_handling": "404-page"
+  },
+  "vars": {
+    "AUTH_TRUST_HOST": "true",
+    "NEXT_PUBLIC_APP_URL": "https://jadoo.bond"
+  }
+}
