@@ -84,7 +84,7 @@ export default function HomePage() {
           <div className="flex items-center gap-3">
             <Button asChild variant="ghost">
               <Link
-                href="https://github.com/zeon-studio/open-remark"
+                href="https://github.com/dashingmza/open-remark"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Open OpenRemark GitHub repository"
@@ -407,12 +407,12 @@ export default function HomePage() {
           <p>
             An open source project by{" "}
             <Link
-              href="https://zeon.studio?ref=openremark"
+              href="https://csofts.com?ref=openremark"
               target="_blank"
               rel="noopener"
               className="underline underline-offset-4 hover:text-foreground"
             >
-              Zeon Studio
+              cSofts
             </Link>
           </p>
         </div>
