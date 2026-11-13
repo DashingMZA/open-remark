@@ -82,4 +82,4 @@ See [docs/architecture.md](docs/architecture.md) for system design, request flow
 
 ## License
 
-[MIT License](https://github.com/zeon-studio/open-remark/blob/main/LICENSE)
+[MIT License](LICENSE)
